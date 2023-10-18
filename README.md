@@ -4,7 +4,7 @@ __1. Create the files:__
    
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/fd2e38ab-6ff5-409e-8580-45c13f37b907.png)
 
-__2. Waveform:__
+__2. Waveform (pre-synthesis):__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/b89d35b3-5f8a-4f57-907c-c7626f41768f.png)
 
