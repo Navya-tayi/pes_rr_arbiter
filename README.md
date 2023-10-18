@@ -1,4 +1,4 @@
-# pes_rr_arbiter
+# ROUND ROBIN ARBITER
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/fd2e38ab-6ff5-409e-8580-45c13f37b907.png)
 
