@@ -53,6 +53,8 @@ I used the original netlist file itself to generate the GLS waveform sinc eusing
 
 __8. GLS (Gate level synthesis) waveform:__
 
+Use the generated netlist file to get the GLS waveform and compare with the pre-synthesis waveform
+
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/4ab29d70-ca7d-4351-a6cb-1307bfc8a7e3)
 
 pre-synthesys waveform (for comparision):
