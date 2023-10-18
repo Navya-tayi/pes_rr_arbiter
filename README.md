@@ -55,6 +55,10 @@ __8. GLS (Gate level synthesis) waveform:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/4ab29d70-ca7d-4351-a6cb-1307bfc8a7e3)
 
+pre-synthesys waveform (for comparision):
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/b89d35b3-5f8a-4f57-907c-c7626f41768f.png)
+
 The above warnings did not affect the waveforms.
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/13e5d330-81aa-4009-92fc-6669d7ac933a.png)
