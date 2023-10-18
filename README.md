@@ -59,7 +59,7 @@ The above warnings did not affect the waveforms.
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/13e5d330-81aa-4009-92fc-6669d7ac933a.png)
 
-##__The GLS and pre-synthesis waveform match.__
+__The GLS and pre-synthesis waveform match.__
 
 Code Credits:
 https://www.youtube.com/watch?v=X6oJn7r9-8s (Arjun-Narula)
