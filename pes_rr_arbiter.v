@@ -1,4 +1,4 @@
-module arbiter (
+module pes_rr_arbiter (
   clk,    
   rst,    
   req3,   
