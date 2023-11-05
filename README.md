@@ -1,5 +1,11 @@
 # ROUND ROBIN ARBITER
 
+A round-robin arbiter is a digital circuit or algorithm used in computer systems to fairly allocate a shared resource among multiple requestors. It works in a sequential manner, granting access to each requestor in a cyclic order, ensuring fairness without favoring any one requestor. Round-robin arbiters are commonly used in scenarios like memory access in multi-processor systems and network packet scheduling, where multiple devices or entities contend for access to a common resource.
+
+While round-robin arbitration provides fairness, it may not always be the most efficient or suitable method for every application. Some systems require more complex arbitration strategies to address specific requirements or priorities. Nonetheless, round-robin arbiters remain a fundamental concept in digital design for achieving equitable resource sharing.
+
+
+<details><summary>Phase 1</summary>
 __1. Create the files:__
    
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/fd2e38ab-6ff5-409e-8580-45c13f37b907.png)
@@ -67,75 +73,115 @@ The above warnings did not affect the waveforms.
 
 __The GLS and pre-synthesis waveform match.__
 
-Code Credits:
-https://www.youtube.com/watch?v=X6oJn7r9-8s (Arjun-Narula)
+</details>
 
+
+<details><summary>Phase 2</summary>
+   
+# Physical Design
+
+<details><summary>Steps after Installation</summary>
 successful openlane installation:
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/f0ce46f3-5c05-4f7e-84d9-1774112695cc)
 
-
-## After installation:
+__After installation__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/92c7fc06-0e9b-4285-819a-9a99bcf3894f)
 
 
-In a new tab:
+__In a new tab:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/80051c9a-bf1b-4368-9dcb-2b4bcb39da6a)
 
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/f6204385-38cf-48e9-b83e-41d1d36aee04)
 
-modify config.json file in the design directory
+__Modify config.json file in the design directory__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/26ba25bc-eb43-4386-b548-168d4e0dfa09)
+</details>
 
+<details><summary>Synthesis</summary>
+   
+__run_synthesis:__
 
-run_synthesis:
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/d4960d44-e15c-4fbf-ad3f-93f4b8cdba43)
 
-summary report:
+__summary report:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/a44ce181-a325-480c-96ec-cb35ae60f24c)
 
-run_floorplan:
+</details>
+
+
+<details><summary>Floorplan</summary>
+
+__run_floorplan:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/8fad6a53-85a4-4ab4-87df-d3153617f851)
 
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/43699c2a-f66c-4dbc-9862-b6318e1939e7)
 
-floorplan:
+__floorplan:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/d730e5c0-eacb-49d8-9a36-58975927fded)
 
-run_placement:
+</details>
+
+
+<details><summary>Placement</summary>
+
+__run_placement:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/59ff45f6-5032-479c-929c-08e31ab2beba)
 
-placement:
-
+__placement:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/7da41c98-da20-46b7-a759-a2baee6ea0fd)
 
+</details>
 
 
-![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/34c444db-84a8-4cee-9ff0-5f053af3c907)
-
-run_cts:
+<details><summary>Clock Tree Sythesis & Routing</summary>
+   
+__run_cts:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/9532750a-d7f3-4c1f-b980-6e2f1335c9b1)
 
-gen_pdn:
+__gen_pdn:__
+
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/c38ebdcd-53da-49db-9298-fc6beb0398b1)
 
-Routing:
+__Routing:__
+
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/c5cb7300-350d-4342-9352-0212fb4a4d76)
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/a0d7eaa5-6e25-45ee-ad04-b1045e276b8c)
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/35bc44b8-d99f-48a6-b591-66b37c909be1)
+
+</details>
+
+<details><summary>Errors & Resolution</summary>
+   
+__Errors faced:__
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/03ce3aea-aaaa-4325-9101-04c20bed7270)
+
+__To resolve it:__
+
+In the configuration files, go to floorplan.tcl
+
+Increase the die area and run_floorplan again:
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/64763719-07a9-41f6-becc-ef0501704463)
+
+</details>
+</details>
+
+
 
 
 
