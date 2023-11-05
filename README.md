@@ -70,6 +70,52 @@ __The GLS and pre-synthesis waveform match.__
 Code Credits:
 https://www.youtube.com/watch?v=X6oJn7r9-8s (Arjun-Narula)
 
+successful openlane installation:
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/f0ce46f3-5c05-4f7e-84d9-1774112695cc)
+
+
+## After installation:
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/92c7fc06-0e9b-4285-819a-9a99bcf3894f)
+
+
+In a new tab:
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/80051c9a-bf1b-4368-9dcb-2b4bcb39da6a)
+
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/f6204385-38cf-48e9-b83e-41d1d36aee04)
+
+modify config.json file in the design directory
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/26ba25bc-eb43-4386-b548-168d4e0dfa09)
+
+
+run_synthesis:
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/d4960d44-e15c-4fbf-ad3f-93f4b8cdba43)
+
+summary report:
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/a44ce181-a325-480c-96ec-cb35ae60f24c)
+
+run_floorplan:
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/8fad6a53-85a4-4ab4-87df-d3153617f851)
+
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/43699c2a-f66c-4dbc-9862-b6318e1939e7)
+
+floorplan:
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/d730e5c0-eacb-49d8-9a36-58975927fded)
+
+
+
+
+
+
+
 
 
 
