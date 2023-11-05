@@ -110,6 +110,41 @@ floorplan:
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/d730e5c0-eacb-49d8-9a36-58975927fded)
 
+run_placement:
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/59ff45f6-5032-479c-929c-08e31ab2beba)
+
+placement:
+
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/7da41c98-da20-46b7-a759-a2baee6ea0fd)
+
+
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/34c444db-84a8-4cee-9ff0-5f053af3c907)
+
+run_cts:
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/9532750a-d7f3-4c1f-b980-6e2f1335c9b1)
+
+gen_pdn:
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/c38ebdcd-53da-49db-9298-fc6beb0398b1)
+
+Routing:
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/c5cb7300-350d-4342-9352-0212fb4a4d76)
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/a0d7eaa5-6e25-45ee-ad04-b1045e276b8c)
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/35bc44b8-d99f-48a6-b591-66b37c909be1)
+
+
+
+
+
+
+
+
+
 
 
 
