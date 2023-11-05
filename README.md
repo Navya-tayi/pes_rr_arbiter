@@ -6,6 +6,7 @@ While round-robin arbitration provides fairness, it may not always be the most e
 
 
 <details><summary>Phase 1</summary>
+   
 __1. Create the files:__
    
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/fd2e38ab-6ff5-409e-8580-45c13f37b907.png)
@@ -81,7 +82,8 @@ __The GLS and pre-synthesis waveform match.__
 # Physical Design
 
 <details><summary>Steps after Installation</summary>
-successful openlane installation:
+   
+__successful openlane installation:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/f0ce46f3-5c05-4f7e-84d9-1774112695cc)
 
@@ -100,6 +102,7 @@ __In a new tab:__
 __Modify config.json file in the design directory__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter/assets/79205242/26ba25bc-eb43-4386-b548-168d4e0dfa09)
+
 </details>
 
 <details><summary>Synthesis</summary>
